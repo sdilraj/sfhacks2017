@@ -16,28 +16,29 @@
 
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/malelogo"
+        android:clickable="true"
  />
 
     <ImageButton
         android:id="@+id/femaleButton"
         android:layout_width="168sp"
         android:layout_height="285sp"
-        android:layout_gravity="center"
-        android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/femalogo"
-        android:layout_alignLeft="@+id/femaleView"
-        android:layout_alignStart="@+id/femaleView"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        />
+
+
 
     <TextView
     android:id="@+id/maleView"
-    android:layout_width="162sp"
+    android:layout_width="168sp"
     android:layout_height="115sp"
     android:text="Male"
-  android:textSize="49dp"
+    android:textSize="49dp"
         tools:layout_editor_absoluteY="333dp"
         tools:layout_editor_absoluteX="0dp"
         android:layout_alignBaseline="@+id/femaleView"
@@ -65,6 +66,7 @@
         android:id="@+id/guideline"
         android:orientation="vertical"
         app:layout_constraintGuide_end="364dp" />
+
 
 
 

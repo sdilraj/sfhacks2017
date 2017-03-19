@@ -6,8 +6,7 @@
         android:largeScreens="true"
         android:normalScreens="true"
         android:smallScreens="true"
-        android:xlargeScreens="true"
-        />
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -15,26 +14,41 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".information"
-            android:parentActivityName=".information"
-            >
+        <activity
+            android:name=".information"
+            android:parentActivityName=".information">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".information" />
+        </activity>
+        <activity
+            android:name=".waitEstimate"
+            android:parentActivityName=".waitEstimate">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".waitEstimate" />
+        </activity>
+        <activity android:name=".finish"
+            android:parentActivityName=".finish"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".finish"/>
+
 
         </activity>
     </application>
