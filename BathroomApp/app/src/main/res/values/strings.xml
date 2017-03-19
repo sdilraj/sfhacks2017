@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BathroomApp</string>
+
+
+    <string-array name="Location">
+        <item>SF Hacks </item>
+        <item>Oregon State vs. St.Mary </item>
+        <item>San Francisco Giants Vs. Arizona Diamondbacks </item>
+        <item>DreamState San Francisco</item>
+
+    </string-array>
+
+</resources>
